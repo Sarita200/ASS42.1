@@ -6,7 +6,7 @@ function Home() {
     console.log(blogs);
   return (
     <>
-    <h1 className="Heading">RJ's Blogs</h1>
+    <h1 className="Heading">Movie's Blogs</h1>
         <div className="blogs-container">
             {
                 blogs.map((blogObject, i) => {
